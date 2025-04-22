@@ -1,0 +1,6 @@
+matrix-nio
+requests
+openai
+sqlalchemy
+aiosqlite
+fastapi
