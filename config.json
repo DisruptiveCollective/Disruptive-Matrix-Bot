@@ -1,8 +1,8 @@
 {
     "matrix": {
-      "homeserver": "https://matrix.org",
-      "user_id": "@disruptiveai:matrix.org",
-      "owner_id": "@thedisruptivecollective:matrix.org"
+      "homeserver": "https://yourhomeserver.org",
+      "user_id": "@botaccount:matrix.org",
+      "owner_id": "@youraccount:matrix.org"
     },
     "database": {
       "type": "sqlite",
@@ -10,20 +10,20 @@
     },
     "vllm_endpoints": [
       {
-        "name": "hermes",
-        "base_url": "https://hermes.ai.unturf.com/v1"
+        "name": "endpoint1",
+        "base_url": "https://endpoint.com/v1"
       },
       {
-        "name": "naptha2",
-        "base_url": "https://naptha2.ai.unturf.com/v1"
+        "name": "endpoint2",
+        "base_url": "https://endpoint.com/v1"
       },
       {
-        "name": "naptha3",
-        "base_url": "https://naptha3.ai.unturf.com/v1"
+        "name": "endpoint3",
+        "base_url": "https://endpoint.com/v1"
       },
       {
-        "name": "hermes2",
-        "base_url": "https://hermes2.ai.unturf.com/v1"
+        "name": "endpoint4",
+        "base_url": "https://endpoint.com/v1"
       }
     ],
     "summarizer": {
