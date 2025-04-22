@@ -36,7 +36,7 @@ DATA_DIR.mkdir(exist_ok=True)
 # Example: read from env vars or use fallback values
 MATRIX_HOMESERVER = os.getenv("MATRIX_HOMESERVER", "https://matrix.org")
 MATRIX_USER_ID = os.getenv("MATRIX_USER_ID", "@disruptiveai:matrix.org")
-MATRIX_PASSWORD = os.getenv("MATRIX_PASSWORD", "Z5i!thXxZ7EwWX3")
+MATRIX_PASSWORD = os.getenv("MATRIX_PASSWORD", "password")
 MATRIX_OWNER_ID = os.getenv("MATRIX_OWNER_ID", "@thedisruptivecollective:matrix.org")
 
 TRUSTED_USERS = {
